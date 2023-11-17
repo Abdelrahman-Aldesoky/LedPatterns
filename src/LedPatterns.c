@@ -11,8 +11,6 @@
 
 int main(void)
 {
-	u8 Local_u8ErrorState = OK;
-
 	/*Initialize USART for interrupts initialize my LED port */
 	USART_voidInit();
 	LED_voidInit();
