@@ -3,7 +3,7 @@
 /********************Ver.: 01********************/
 /****************Date:17/08/2023.****************/
 /************************************************/
-
+#define __DELAY_BACKWARD_COMPATIBLE__
 #include "../inc/STD_TYPES.h"
 #include "../inc/BIT_MATH.h"
 #include "DIO_interface.h"
