@@ -14,7 +14,7 @@ int main(void)
 	/*Initialize USART for interrupts initialize my LED port */
 	USART_voidInit();
 	LED_voidInit();
-	/*set my call back function usart intterupt it just checks what number is being recieved from usart
+	/*set my call back function usart interrupt it just checks what number is being received from usart
 	and then sets the led pattern index i got array of structs for the patterns*/
 	USART_voidSetCallBack(LED_voidCheckState);
 
